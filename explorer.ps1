@@ -12,7 +12,7 @@ $form.Font = New-Object System.Drawing.Font("Arial", 10)
 
 # Label e TextBox para Máquina
 $labelMachine = New-Object System.Windows.Forms.Label
-$labelMachine.Text = "Máquina (ex: TBLPC):"
+$labelMachine.Text = "Máquina (ex: PC01):"
 $labelMachine.Location = New-Object System.Drawing.Point(10, 20)
 $labelMachine.Width = 150
 
